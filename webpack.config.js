@@ -32,5 +32,5 @@ module.exports = {
   resolve: {
     // configuration options
     'resolve.fallback: { "assert": require.resolve("assert/") }'
-  },
+  }
 };
