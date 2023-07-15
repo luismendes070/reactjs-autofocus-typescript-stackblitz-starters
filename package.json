@@ -14,7 +14,7 @@
   "scripts": {
     "webpack:start": "webpack serve --open --config webpack.dev.js",
     "start": "react-scripts start",
-    "webpack:build": "webpack --config webpack.prod.js",
+    "webpack:build": "webpack --config webpack.config.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
   },
@@ -25,7 +25,8 @@
     "babel-preset-react-app": "^10.0.1",
     "path-browserify": "^1.0.1",
     "react-scripts": "^5.0.1",
-    "webpack": "^5.88.1"
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
   },
   "browserslist": {
     "production": [
