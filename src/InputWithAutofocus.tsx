@@ -1,4 +1,5 @@
-import React, { useRef } from "react";
+// Bard
+import React, { useEffect, useRef } from "react";
 
 const InputWithAutoFocus = () => {
   const ref = useRef(null);
