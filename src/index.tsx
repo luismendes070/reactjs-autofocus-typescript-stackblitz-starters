@@ -4,6 +4,10 @@ import { createRoot } from 'react-dom/client';
 
 import App from './App';
 
+require("@babel/core").transform("code", {
+  presets: ["@babel/preset-env"],
+});
+
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 

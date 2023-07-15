@@ -15,6 +15,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "@types/node": "^20.4.2",
     "@babel/core": "^7.22.9",
     "react-scripts": "^5.0.1"
   }
