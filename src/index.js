@@ -1,11 +1,11 @@
-import _ from 'lodash';
-import printMe from './print.js';
+const _ = require('lodash');
+const printMe = require('./print.js');
 
-if (process.env.NODE_ENV !== 'production') {
+try{
+
+  if (process.env.NODE_ENV !== 'production') {
     console.log('Looks like we are in development mode!');
   }
-  
-
 
 if (module.hot) {
     module.hot.accept('./print.js', function() {
@@ -29,3 +29,9 @@ if (module.hot) {
  }
 
  document.body.appendChild(component());
+
+}catch(e){
+
+  e.printStackTrace()
+
+}

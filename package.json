@@ -1,6 +1,6 @@
 {
   "name": "stackblitz-starters-evpw4a",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": true,
   "dependencies": {
     "@types/react": "18.2.15",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/preset-env": "^7.22.9",
     "@types/node": "^20.4.2",
     "babel-loader": "^9.1.3",
