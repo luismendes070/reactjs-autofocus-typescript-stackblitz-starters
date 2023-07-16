@@ -1,6 +1,6 @@
 {
   "name": "stackblitz-starters-evpw4a",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.22.9",
@@ -14,7 +14,7 @@
   "scripts": {
     "webpack:start": "webpack serve --open --config webpack.dev.js",
     "start": "react-scripts start",
-    "webpack:build": "webpack --config webpack.config.js",
+    "webpack:build": "webpack --config webpack.prod.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom"
   },
