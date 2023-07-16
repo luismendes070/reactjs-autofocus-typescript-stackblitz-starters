@@ -1,8 +1,7 @@
-import * as React from 'react';
 import './style.css';
 
-import MyComponent from "./MyComponent"
-import InputWithAutoFocus from "./InputWithAutoFocus";
+const MyComponent = require("./MyComponent");
+const InputWithAutoFocus = require("./InputWithAutoFocus");
 
 const App = () => {
   return (

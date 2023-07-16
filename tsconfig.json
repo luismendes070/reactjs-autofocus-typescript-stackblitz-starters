@@ -1,8 +1,16 @@
 {
   "compilerOptions": {
-    "module": "ES6",
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "jsx": "react-jsx",
     "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
-  }
+  },
+  "include": ["src"]
 }

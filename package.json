@@ -1,6 +1,6 @@
 {
   "name": "stackblitz-starters-evpw4a",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": true,
   "dependencies": {
     "@types/react": "18.2.15",
